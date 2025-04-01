@@ -9,7 +9,7 @@ function binarySearch(array $list, int $item)
 
     while ($low <= $high) {
         $mid = ($high + $low) / 2;
-        $mid = floor($mid); // Arredonda para baixo
+        $mid = floor($mid);
         // if ($mid % 2 !== 0) { // Se for ímpar
         //     $mid--; // Ajusta para o primeiro número par abaixo
         // }
