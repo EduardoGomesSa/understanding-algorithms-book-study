@@ -2,31 +2,31 @@
 
 namespace leetCode;
 
-// class Solution {
+class Solution {
 
-//     /**
-//      * @param Integer[] $nums
-//      * @param Integer $target
-//      * @return Integer[]
-//      */
-//     function twoSum(array $nums, $target) {
-//         for($i=0;$i<count($nums)-1;$i++){
-//             if($nums[$i] + $nums[$i+1] == $target) return [$i,$i+1];
-//         } 
-//     }
+    /**
+     * @param Integer[] $nums
+     * @param Integer $target
+     * @return Integer[]
+     */
+    function twoSum(array $nums, $target) {
+        for($i=0;$i<count($nums)-1;$i++){
+            if($nums[$i] + $nums[$i+1] == $target) return [$i,$i+1];
+        } 
+    }
 
 
-// }
+}
 
 /**
-//  * @param Integer[] $nums
+* @param Integer[] $nums
  * @param Integer $target
  * @return Integer[]
  */
 function twoSum(array $nums, $target)
 {
     for ($i = 0; $i < count($nums) - 1; $i++) {
-        if ($nums[$i] + $nums[$i + 1] == $target) return [$i, $i + 1];
+        if ((int)$nums[$i] + (int)$nums[$i + 1] == $target) return [$i, $i + 1];
     }
 
     return [];
