@@ -7,7 +7,7 @@ Um guia ilustrado para programadores e outros curiosos. Um algoritmo nada mais �
 ## Adicional
 <p>Neste repositório também serão dispostos outros códigos produzidos com o intuíto de aperfeiçoamente de lógica e técnica, como a resolução de problemas da plataforma LeetCode.</p>
 
-<p>Estrutura de dados com Rust</p>
+<p>Estrutura de dados com Rust, para ter contanto com a linguagem</p>
 
 ## Como executar os scripts
 ### Visualizar no terminal: 
